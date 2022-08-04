@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="background-color:burlywood">Question 1</h1>
+    <h2 style="background-color:darksalmon">What is meant by first class functions?</h2>
+   
+    A function can be passed as a value/arguments into another functions or can be returned into another functions.
+    This dual capability of the function makes them call as a first class function.
+    Also called as first class citizens.
+
+    <h1 style="background-color:burlywood">Question 2</h1>
+    <h2 style="background-color:darksalmon">Explain call(), apply() and, bind() methods. Give an example of call(), apply(), bind()</h2>
+    call bind and apply  they are used for function borrowing.
+    <br>
+    call method is used to avoid the redundancy of calling the function again and again.
+    <br>
+    the main difference between call and apply is that in call we pass arguments by comma separated but in apply we pass arguments in the form of an array.
+    <br>
+    whereas bind method creates the connection with the function it calls the entire function we assign it to a variable and then call that variable in bind method.
+
+    <h1 style="background-color:burlywood">Question 3</h1>
+    <h2 style="background-color:darksalmon">What are objects in javascript?</h2>
+    A javaScript object is an entity having state and behavior (properties and method).
+    Properties are behaviour aspects related to objects.
+    <br>
+    Methods are action which are performed are called methods.
+    we have differnet methods to create an object:-
+    1.Normal Method
+    2.Object Constructor
+    <h1 style="background-color:burlywood">Question 4</h1>
+    <h2 style="background-color:darksalmon">What are function constructors?</h2>
+
+    In JavaScript, a constructor function is used to create objects.
+   
+In the above example, function Person() is an object constructor function.
+<h1 style="background-color:burlywood">Question 5</h1>
+<h2 style="background-color:darksalmon">Explain prototypes</h2>
+What is prototype in JavaScript with example?
+In JavaScript, every function and object has a property named prototype by default.
+<br>
+ For example, 
+ <br>
+ function Person () { 
+    <br>
+    this.name = 'John', this. age = 23 
+<br>
+} 
+<br>
+const person = new Person(); 
+<br>
+// checking the prototype value console.
+
+<h1 style="background-color:burlywood">Question 6</h1>
+<h2 style="background-color:darksalmon">What is prototype chain ?</h2>
+
+
+The prototype is an object that is associated with every functions and objects by default in JavaScript,
+<br>
+ where function's prototype property is accessible and modifiable and object's prototype property is not visible.
+ <br>
+  Every function includes prototype object by default. 
+
+  <h1 style="background-color:burlywood">Question 7</h1>
+  <h2 style="background-color:darksalmon">Give an example of inheritance using function constructor ?</h2>
+
+
+
+  <h1 style="background-color:burlywood">Question 8</h1>
+  <h2 style="background-color:darksalmon">What are callbacks?</h2>
+Callback functions are those functions that are called after certain period of time.or that can be passed as a value. which can be called back wehn required.
+  A callback function is a function passed into another function as an argument, 
+  <br>which is then invoked inside the outer function to complete some kind of routine or action.
+
+  <h1 style="background-color:burlywood">Question 9</h1>
+  <h2 style="background-color:darksalmon">What are callbacks?</h2>
+  A callback function is a function passed into another function as an argument, which is then invoked inside the outer function to complete some kind of routine or action.
+  <br>
+  <br>
+  The types of callback are:-
+There are two types of callbacks, differing in how they control data flow at runtime: 
+<br>
+
+blocking callbacks (also known as synchronous callbacks or just callbacks)
+<br>
+
+ and deferred callbacks (also known as asynchronous callbacks).
+ <br>
+ <h1 style="background-color:burlywood">Question 10</h1>
+  <h2 style="background-color:darksalmon">What is the use of setTimeout</h2>
+  setTimeout() method sets a timer which executes a function or specified piece of code once the timer expires.
+  <br>
+  We all have used alarms or reminders several times, this setTimeout() method also has the same purpose in web applications.
+  <br> We use this to delay some kind of executions. It is also used for animations and DOM manipulations in jquery.
+  <h1 style="background-color:burlywood">Question 11</h1>
+  <h2 style="background-color:darksalmon">What is an event loop and call stack</h2>
+  The call stack is a mechanism that helps the JavaScript interpreter to keep track of the functions that a script calls.
+
+  Every time a script or function calls a function, it's added to the top of the call stack. Every time the function exits, the interpreter removes it from the call stack.
+  The call stack is a LIFO queue (Last In, First Out). 
+  <br>The event loop continuously checks the call stack to see if there's any function that needs to run. 
+  <br>
+  While doing so, it adds any function call it finds to the call stack and executes each one in order.
+
+
+
+    <script src="index.js"></script>
+   
+</body>
+</html>
